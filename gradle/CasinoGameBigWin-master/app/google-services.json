@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1049156556560",
+    "project_id": "casino-game---big-win",
+    "storage_bucket": "casino-game---big-win.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049156556560:android:53e5422a2f9b6d03bcb795",
+        "android_client_info": {
+          "package_name": "com.big.win.casino.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049156556560-036c85me0r9gfthuvp2l23tc36plmcde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjZE_4HHY0Po1AwZziJMFTxnFLDdKT63o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049156556560-036c85me0r9gfthuvp2l23tc36plmcde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

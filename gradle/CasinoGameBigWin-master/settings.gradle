@@ -1,0 +1,3 @@
+
+rootProject.name = "Casino Game - Big Win!"
+include ':app'

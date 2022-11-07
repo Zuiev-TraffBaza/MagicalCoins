@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_splash">
+    <fragment
+        android:id="@+id/navigation_game"
+        android:name="com.big.win.casino.games.main.game.GameFragment"
+        android:label="navigation_game"
+        tools:layout="@layout/fragment_game">
+        <action
+            android:id="@+id/action_navigation_game_to_navigation_slot"
+            app:destination="@id/navigation_slot" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_splash"
+        android:name="com.big.win.casino.games.main.SplashFragment"
+        android:label="navigation_splash" >
+        <action
+            android:id="@+id/action_navigation_splash_to_navigation_main"
+            app:destination="@id/navigation_main" />
+        <action
+            android:id="@+id/action_navigation_splash_to_navigation_game"
+            app:destination="@id/navigation_game" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.big.win.casino.games.main.MainFragment"
+        android:label="navigation_main" />
+    <fragment
+        android:id="@+id/navigation_slot"
+        android:name="com.big.win.casino.games.main.game.SlotFragment"
+        android:label="navigation_slot" />
+    <fragment
+        android:id="@+id/navigation_policy"
+        android:name="com.big.win.casino.games.main.game.PolicyFragment"
+        android:label="navigation_policy">
+        <action
+            android:id="@+id/action_policyFragment_to_navigation_game"
+            app:destination="@id/navigation_game" />
+    </fragment>
+
+</navigation>

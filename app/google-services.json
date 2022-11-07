@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1039632710175",
+    "project_id": "magical-coins-66e1a",
+    "storage_bucket": "magical-coins-66e1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039632710175:android:452ce955710052f987b32a",
+        "android_client_info": {
+          "package_name": "magic.game.coinss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039632710175-mpfb3tm0s8urqser0aknpirs5gc2iau7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvlY5ml1lGbOeBCKcCz5fIZxR1-5MsXXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039632710175-mpfb3tm0s8urqser0aknpirs5gc2iau7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

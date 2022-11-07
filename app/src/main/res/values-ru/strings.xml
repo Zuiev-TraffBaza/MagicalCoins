@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Настройки сети</string>
+    <string name="refresh_page">Обновить страницу</string>
+    <string name="demo_mode">Демо режим</string>
+    <string name="no_internet_connection">Нет интернет соединения</string>
+</resources>
